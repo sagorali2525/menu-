@@ -1,0 +1,51 @@
+header{
+    padding: 60px 0;
+    background-color: #f19e9e;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo a{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.menu{
+   width: 70%;
+   float: right;
+} 
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+nav ul li{
+    float: left;
+   
+}
+nav ul li a{
+   text-transform: uppercase;
+   padding: 0 60px;
+}
+nav ul li a:last-child{
+    padding-right: 0;
+}
+
+nav ul li a:last-child:hover{
+    color: rgb(104 195 163);
+    transition: 0.3s;
+}
+.menu nav ul li a {
+    text-decoration: none;
+    color: black;
+}
